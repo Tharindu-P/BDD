@@ -1,0 +1,37 @@
+{
+    "id": "1001_V690",
+    "client": {
+        "id": "1001",
+        "nom": "Becquerel",
+        "numeroRue": "24",
+        "nomRue": "Rue De Fabre",
+        "codePostal": "13015",
+        "ville": "Marseille"
+    },
+    "vol": {
+        "id": "V690",
+        "villeDepart": "Marseille",
+        "villeArrivee": "Pekin",
+        "dateDepart": "19/04/07",
+        "heureDepart": "18:00",
+        "dateArrivee": "20/04/07",
+        "heureArrivee": "6:15",
+        "pilote": {
+            "id": "4050",
+            "nom": "Dumas",
+            "naissance": "1949",
+            "ville": "Marseille"
+        },
+        "avion": {
+            "id": "440",
+            "nom": "Concorde",
+            "capacite": "100",
+            "ville": "Marseille"
+        }
+    },
+    "classe": {
+        "nom": "Business",
+        "coeffPrix": 2
+    },
+    "places": 3
+}

@@ -1,0 +1,10 @@
+db.vols.aggregate([
+    {
+        $lookup:{
+            from:"avions",
+            localField:"avion",
+            foreignField:"_id",
+            as : "avion"
+        }
+    }
+])
